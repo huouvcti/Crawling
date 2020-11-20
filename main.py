@@ -25,12 +25,3 @@ for i in range(10):
 
 
 driver.close()
-
-
-''' 제목
-html = driver.page_source
-soup = bs(html, "html.parser")
-title_list = soup.find_all("h3", {"class": "LC20lb DKV0Md"})
-for title in title_list:
-    print(title.text)
-'''
