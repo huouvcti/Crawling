@@ -19,3 +19,5 @@ data = []
 for i in range(100):
     data.append([i+1, title_list[i].text.replace("\n",""), singer_list[i].text.replace("\n","")])
     print(str(data[i][0])+"위", data[i][1], data[i][2])
+
+print(data)
